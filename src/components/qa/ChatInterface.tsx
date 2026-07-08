@@ -151,6 +151,7 @@ export function ChatInterface() {
             handleSend(q, k);
           }}
           disabled={loading}
+          initialValue={pendingInput}
         />
       </div>
     </div>
